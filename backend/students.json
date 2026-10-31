@@ -1,0 +1,34 @@
+[
+  {
+    "id": 2,
+    "name": "Rohit",
+    "email": "rohit@gmail.com",
+    "course": "Btech Agri",
+    "year": 4,
+    "mobile": "8149769877"
+  },
+  {
+    "id": 2,
+    "name": "Aarti",
+    "email": "aarti@gmail.com",
+    "course": "Computer Engineering",
+    "year": 3,
+    "mobile": "9876543210"
+  },
+  {
+    "id": 3,
+    "name": "chanchal",
+    "email": "chanchal11@gmail.com",
+    "course": "Computer Engineering",
+    "year": 3,
+    "mobile": "9976543210"
+  },
+  {
+    "id": 4,
+    "name": "shruti",
+    "email": "shruti12@gmail.com",
+    "course": "Computer Engineering",
+    "year": 3,
+    "mobile": "9976543211"
+  }
+]
