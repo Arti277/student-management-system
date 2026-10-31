@@ -18,7 +18,7 @@ function App() {
   // Get students from backend
   const getStudents = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/students");
+      const response = await axios.get("https://student-management-system-uhdl.onrender.com");
       setStudents(response.data);
     } catch (error) {
       console.log("Error fetching students:", error);
@@ -80,7 +80,7 @@ function App() {
     }
 
     try {
-      await axios.post("http://localhost:5000/students", {
+      await axios.post("https://student-management-system-uhdl.onrender.com", {
         name: formData.name,
         email: formData.email,
         course: formData.course,
@@ -113,7 +113,7 @@ function App() {
   // Delete student
   const deleteStudent = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/students/${id}`);
+      await axios.delete(`https://student-management-system-uhdl.onrender.com/${id}`);
 
       alert("Student deleted successfully!");
 
